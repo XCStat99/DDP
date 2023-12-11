@@ -1,0 +1,45 @@
+---
+title: "Central Limit Theorem - DDP Week 4"
+author: "AM"
+date: "2023-12-11"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Project Criteria
+
+**Your Shiny Application**
+
+Write a shiny application with associated supporting documentation. The documentation should be thought of as whatever a user will need to get started using your application.
+
+
+* Deploy the application on Rstudio's shiny server
+* Share the application link by pasting it into the provided text box
+* Share your server.R and ui.R code on github
+
+## Central Limit Theorem App
+
+This app is a dynamic example of the central limit theorem in action. It allows the user to select different starting populations and then randomly sample from these populations.
+
+This shows that regardless of the starting population distribution the sampling distribution of the mean will always be normally distributed.
+
+The user can sample using different sample sizes to show the influence of sample size on the standard error of the mean.
+
+The app can be found here: https://xcstat99.shinyapps.io/DDPW4/
+
+## Operation of the App - Setting the Starting Population
+
+Using the radio buttons in the top left starting populations of Normal, Uniform, Log-normal or Exponential can be selected.
+
+## Operation of the App - Sampling the Starting Population
+
+Once a starting population is selected the sample size for random sampling from the selected distribution can be chosen. This is achieved by moving the slider bar and the sample size can range 10 to 501.
+
+Once selected the sampling distribution in the blue histogram is updated. This will always take the form of a normal distribution, demonstrating the Central Limit Theorem. 
+
+A mean and standard error for this sampling distribution is calculated and on the plot. Note the change in this standard error with sample size.
+
