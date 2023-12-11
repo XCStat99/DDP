@@ -1,13 +1,12 @@
 ---
-title: "Central Limit Theorem - DDP Week 4"
+title: "ReadMe"
 author: "AM"
 date: "2023-12-11"
-output: ioslides_presentation
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+knitr::opts_chunk$set(echo = TRUE)
 
 
 ## Project Criteria

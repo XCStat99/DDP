@@ -1,0 +1,13 @@
+name: DDP-W4
+title: DDP-W4
+username: xcstat99
+account: xcstat99
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10774769
+bundleId: 8036455
+url: https://xcstat99.shinyapps.io/DDP-W4/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: DDP-Week-4---Presentation.html|DDP Week 4 - Presentation.Rmd
