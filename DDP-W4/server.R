@@ -15,8 +15,7 @@ function(input, output, session) {
         
         
         # After the user has defined which population distribution to use, randomly sample
-        # 10,000 times from this distribution to create our population. This is then output
-        # as a histogram
+        # 10000 times from this distribution to create our population. 
         pop_sam <- dist(1e5)
         #Using the sample size inputted by the user the population distribution generated above
         # is sampled 10000 times
